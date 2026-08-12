@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="surveystyle.css">
+</head>
+
+<body>
+
+    <h1>Survey Form</h1>
+
+    <p class="description">
+        Let us know how we can improve freeCodeCamp
+    </p>
+
+    <form>
+
+        <!-- Name -->
+        <div class="form-group">
+            <label for="name">* Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+        </div>
+
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">* Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your Email"
+            >
+        </div>
+
+
+        <!-- Age -->
+        <div class="form-group">
+            <label for="age">* Age:</label>
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Age"
+            >
+        </div>
+
+
+        <!-- Current Role -->
+        <div class="form-group">
+            <label for="role">
+                Which option best describes your current role?
+            </label>
+
+            <select id="role">
+                <option>Student</option>
+            </select>
+        </div>
+
+
+        <!-- Recommendation -->
+        <div class="form-group">
+            <label>
+                * How likely is that you would recommend
+                freeCodeCamp to a friend?
+            </label>
+
+            <div class="options">
+                <label>
+                    <input type="radio" name="recommend">
+                    Definitely
+                </label>
+
+                <label>
+                    <input type="radio" name="recommend">
+                    Maybe
+                </label>
+
+                <label>
+                    <input type="radio" name="recommend">
+                    Not sure
+                </label>
+            </div>
+        </div>
+
+
+        <!-- Like most -->
+        <div class="form-group">
+            <label for="like">
+                What do you like most in FCC:
+            </label>
+
+            <select id="like">
+                <option>Select an option</option>
+            </select>
+        </div>
+
+
+        <!-- Improvements -->
+        <div class="form-group">
+            <label>
+                Things that should be improved in the future
+                <br>
+                (Check all that apply):
+            </label>
+
+            <div class="options">
+
+                <label>
+                    <input type="checkbox">
+                    Front-end Projects
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Back-end Projects
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Data Visualization
+                </label>
+
+            </div>
+        </div>
+
+    </form>
+
+</body>
+</html>
