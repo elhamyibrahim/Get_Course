@@ -1,0 +1,18 @@
+.card{
+    width: 300px;
+    position: relative;
+  
+}
+img
+{
+      border: 1px solid #ccc;
+}
+
+.sale{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background: red;
+    color: white;
+}
