@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1d2c42;
+}
+
+
+
+.top-bar {
+    height: 60px;
+    background-color: #262626;
+    padding: 0 18px 0 35px;
+    border-bottom: 1px solid #555;
+}
+
+.envato-logo {
+    font-size: 24px;
+    color: white;
+}
+
+.envato-icon {
+    color: #82b440;
+    font-size: 25px;
+    margin-right: 4px;
+}
+
+.envato {
+    font-weight: bold;
+}
+
+.market {
+    color: #d5d5d5;
+    font-weight: 300;
+}
+
+.buy-btn {
+    background-color: #82b440;
+    color: white;
+    border-radius: 4px;
+    padding: 9px 22px;
+    font-size: 16px;
+}
+
+.buy-btn:hover {
+    background-color: #6f9d34;
+    color: white;
+}
+
+
+
+
+.login-section {
+    background-color: #f7f7f6;
+    min-height: calc(100vh - 60px);
+    padding: 60px 80px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qr-icon {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #ed713d;
+    border-radius: 7px;
+    color: #ed713d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 32px;
+}
+
+.brand-name {
+    color: #d85f35;
+    font-size: 15px;
+}
+
+.login-content {
+    max-width: 700px;
+    margin: 5px auto 0;
+}
+
+
+
+.welcome {
+    color: #c15d35;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #526276;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.demo-header {
+    color: #607086;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+}
+
+.demo-header small {
+    font-size: 13px;
+    letter-spacing: 0;
+    color: #718096;
+    font-weight: normal;
+}
+
+.demo-card {
+    min-height: 158px;
+    background-color: #f8f9fa;
+    border: 1px solid #d5dce5;
+    border-radius: 20px;
+    padding: 14px;
+    transition: 0.3s;
+}
+
+.demo-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.admin-card {
+    border-color: #f1c6b1;
+}
+
+.role-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+.admin-icon {
+    background-color: #f47b46;
+}
+
+.tenant-icon {
+    background-color: #182238;
+}
+
+.demo-card h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.demo-card p {
+    color: #526276;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.demo-card a {
+    color: #be5a31;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+
+
+
+.form-label {
+    color: #607086;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-control {
+    height: 56px;
+    border-radius: 17px;
+    border: 1px solid #d3dae3;
+    background-color: #fafafa;
+    padding: 0 18px;
+    color: #23324a;
+}
+
+.form-control:focus {
+    border-color: #1b2940;
+    box-shadow: 0 0 0 3px rgba(27, 41, 64, 0.08);
+}
+
+.forgot {
+    color: #c25d34;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-icon {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #738197;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    height: 55px;
+    border-radius: 16px;
+    background-color: #182238;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sign-in-btn:hover {
+    background-color: #29354c;
+    color: white;
+}
+
+
+
+
+.case-section {
+    min-height: calc(100vh - 60px);
+    background-color: #172136;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px 70px;
+}
+
+.case-content {
+    max-width: 620px;
+}
+
+.case-label {
+    color: #efb89f;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.case-content h2 {
+    font-size: 36px;
+    line-height: 1.38;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+
+
+
+
+.person {
+    gap: 18px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #dce7eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #1b3454;
+    font-size: 34px;
+}
+
+.person h5 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.person p {
+    margin: 0;
+    color: #aab7c9;
+    font-size: 16px;
+}
+
+
+
+@media (max-width: 991px) {
+
+    .login-section {
+        padding: 40px 25px;
+    }
+
+    .case-section {
+        min-height: 500px;
+        padding: 70px 30px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .case-content h2 {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .top-bar {
+        padding: 0 15px;
+    }
+
+    .envato-logo {
+        font-size: 18px;
+    }
+
+    .buy-btn {
+        padding: 7px 15px;
+    }
+
+    .login-section {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .demo-card {
+        min-height: auto;
+    }
+
+    .case-content h2 {
+        font-size: 25px;
+    }
+
+}
